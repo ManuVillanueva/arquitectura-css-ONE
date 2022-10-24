@@ -1,0 +1,37 @@
+.banner__img {
+  background: url(../../img/banner.jpg) no-repeat center / cover;
+  height: calc(100vh - 72px);
+  width: 100%;
+}
+
+.banner__title {
+  width: 100%;
+  color: #fdfdfd;
+  font-family: Pacifico, cursive;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  top: 50%;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, .75);
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 0) {
+  .banner__img {
+    height: calc(100vh -52px);
+  }
+  .banner__title {
+    height: calc(100vh -52px);
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner__img {
+    height: calc(100vh - 72px);
+  }
+  .banner__title {
+    height: calc(100vh -52px);
+    font-size: 5.0625rem;
+  }
+}
